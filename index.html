@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtr=device-widtr, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="dp">
+        <main>
+            <section class="inputs">
+                <label>Item:
+                    <input type="text" name="item" id="CurrentItem" required>
+                </label>
+                <button onclick="AddTask()">Add Task</button>
+                <button onclick="RemoveTask()">Remove Task</button>
+                <button onclick="RemoveAllTasks()">Remove All Tasks</button>
+            </section>
+
+            <section class="listItems">
+                <table id="list">
+                    <th>#</th>
+                    <th class="task">Task</th>
+                </table>
+            </section>
+        </main>
+    </section>
+</body>
+</html>
